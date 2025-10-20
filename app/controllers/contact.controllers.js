@@ -14,7 +14,7 @@ exports.update = (req, res) => {
   res.send({ message: "update handler" });
 };
 
-exports.deleteOne = (req, res) => {
+exports.delete = (req, res) => {
   res.send({ message: "delete handler" });
 };
 
